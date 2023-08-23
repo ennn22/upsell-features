@@ -54,6 +54,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   border-right: 1px solid black;
+  transition: all .5s;
+}
+
+.email-feature:hover,
+.analytics-feature:hover {
+  color: #fecaca;
 }
 
 .price {
@@ -100,6 +106,11 @@ ul li {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  transition: all .5s;
+}
+
+.right-feature:hover {
+  color: #fecaca;
 }
 
 .right-feature h3 {
@@ -152,6 +163,19 @@ ul li {
   border-radius: 20px;
   cursor: pointer;
 }
+
+.add-cart-btn {
+  transition: all .5s;
+}
+
+.add-cart-btn:hover {
+  scale: 1.03;
+  border: 1px solid #fecaca;
+  color: #fecaca;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 
 .background {
   position: fixed;
@@ -280,3 +304,4 @@ ul li {
   box-shadow: 0 0 50px white;
   filter: blur(40px);
 }
+
